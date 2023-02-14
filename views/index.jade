@@ -1,0 +1,64 @@
+!!! 5
+html(lang='en')
+  head
+    title Tiny TOE Press
+    meta(name='description', content='Publisher of books handpressed with love. Founded in 2011.')
+    != css('toe')
+
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+    script(src='/jslib/jquery.ba-bbq.js')
+    //- script(src='/jslib/jquery.TouchSwipe.min.js')
+    != js('toe')
+
+    include google_analytics
+
+  body
+
+    #container
+      
+      #header
+        #nav
+          #storeNav.navItem("target"="store") Store
+          #aboutNav.navItem("target"="about") About
+          #connectNav.navItem("target"="connect") Connect
+
+        #stamp
+          img#toeStamp(src='/img/toe_stamp_130_trans.png', width=130)
+
+        #headerCenter
+          #ttp Tiny TOE Press
+          #sep
+          #love Books handpressed with love.
+
+          include homenav
+              
+      #innerContainer
+                    
+        #home.innerBlock
+          
+        include about
+
+        include store
+        
+        include connect
+          
+        include acknowledge
+
+        include Austin_Nights
+        
+        include The_Mosquito_Song
+            
+        include Miss_Gone_Overseas
+
+        include Heart_of_Scorpio
+
+        include Rarity_of_the_Century
+
+        include The_Persistence_of_Crows
+
+      include footer
+        
+          
+        
+            
+            

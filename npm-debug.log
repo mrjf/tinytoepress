@@ -1,0 +1,57 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node-phantom',
+1 verbose cli   '--save' ]
+2 info using npm@1.2.30
+3 info using node@v0.10.11
+4 verbose read json /Users/russ/projects/toe/node/package.json
+5 warn package.json hello-world@0.0.1 No repository field.
+6 warn package.json hello-world@0.0.1 No readme data.
+7 verbose read json /Users/russ/projects/toe/node/node_modules/bootstrap-stylus/package.json
+8 verbose read json /Users/russ/projects/toe/node/node_modules/coffee-script/package.json
+9 verbose read json /Users/russ/projects/toe/node/node_modules/connect-assets/package.json
+10 verbose read json /Users/russ/projects/toe/node/node_modules/express/package.json
+11 verbose read json /Users/russ/projects/toe/node/node_modules/jade/package.json
+12 verbose read json /Users/russ/projects/toe/node/node_modules/stylus/package.json
+13 verbose from cache /Users/russ/projects/toe/node/package.json
+14 verbose readDependencies using package.json deps
+15 verbose cache add [ 'node-phantom', null ]
+16 verbose cache add name=undefined spec="node-phantom" args=["node-phantom",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'node-phantom',
+17 verbose parsed url   path: 'node-phantom',
+17 verbose parsed url   href: 'node-phantom' }
+18 silly lockFile 8ee1b8a5-node-phantom node-phantom
+19 verbose lock node-phantom /Users/russ/.npm/8ee1b8a5-node-phantom.lock
+20 silly lockFile 8ee1b8a5-node-phantom node-phantom
+21 verbose addNamed [ 'node-phantom', '' ]
+22 verbose addNamed [ null, '' ]
+23 silly lockFile 60a19d69-node-phantom node-phantom@
+24 verbose lock node-phantom@ /Users/russ/.npm/60a19d69-node-phantom.lock
+25 silly lockFile 60a19d69-node-phantom node-phantom@
+26 error Error: EACCES, open '/Users/russ/.npm/60a19d69-node-phantom.lock'
+26 error  { [Error: EACCES, open '/Users/russ/.npm/60a19d69-node-phantom.lock']
+26 error   errno: 3,
+26 error   code: 'EACCES',
+26 error   path: '/Users/russ/.npm/60a19d69-node-phantom.lock' }
+27 error Please try running this command again as root/Administrator.
+28 error System Darwin 12.4.0
+29 error command "node" "/usr/local/bin/npm" "install" "node-phantom" "--save"
+30 error cwd /Users/russ/projects/toe/node
+31 error node -v v0.10.11
+32 error npm -v 1.2.30
+33 error path /Users/russ/.npm/60a19d69-node-phantom.lock
+34 error code EACCES
+35 error errno 3
+36 error stack Error: EACCES, open '/Users/russ/.npm/60a19d69-node-phantom.lock'
+37 verbose exit [ 3, true ]

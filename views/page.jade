@@ -1,0 +1,30 @@
+extends read
+
+block page
+
+  script
+    var frontMatter = !{JSON.stringify(frontMatter)};
+    var bookSlug = !{JSON.stringify(bookSlug)};
+    var numPages = !{JSON.stringify(numPages)};
+    var pageNumber = null;
+    var pageSlug = null;
+
+  a.prev.nav.disabled
+      span.space &nbsp;
+      span#lt &lt;
+
+    a.next.nav.disabled
+      span.space &nbsp;
+      span#gt &gt;
+
+  div#container
+
+    div#page
+      div#pageHead #{bookTitle}
+
+      div#pageHtml
+
+      div#displayPageNumber
+
+
+

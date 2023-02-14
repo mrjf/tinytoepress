@@ -1,0 +1,15 @@
+!!! 5
+html(lang='en')
+  head
+    title= title
+    != css('reader')
+
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+    script(src='/jslib/jquery.TouchSwipe.min.js')
+    != js('reader')
+
+  body
+    block page
+
+    div#watermark
+      img(id='watermarkImage', src='/img/toe_logo.png')

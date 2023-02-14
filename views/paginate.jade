@@ -1,0 +1,37 @@
+!!! 5
+html(lang='en')
+  head
+    title= title
+    != css('reader')
+
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+    != js('paginationLogic')
+    != js('paginater')
+
+  body
+
+  input(id='bookSlug', type='hidden', value='#{bookSlug}')
+  input(id='bookHtml', type='hidden', value='#{bookHtml}')
+
+  a.prev.nav
+      span.space &nbsp;
+      span#lt &lt;
+
+    a.next.nav
+      span.space &nbsp;
+      span#gt &gt;
+
+  div#container
+
+    div#page
+      div#pageHead "paginate"
+
+      div#sizer
+
+      div#pageNumber
+
+
+
+
+
+
